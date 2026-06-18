@@ -1,39 +1,42 @@
-<pre style="background:transparent;border:none;padding:0;margin:0 auto;width:fit-content;font-family:'Courier New',monospace;color:#555;font-size:14px;line-height:2">
-  [ SYSTEM ]
-
-  os             endeavouros x86_64
-  wm             hyprland
-  terminal       kitty
-  shell          fish
-</pre>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amorfati3735&show_icons=true&hide_rank=true&hide_border=true&bg_color=ffffff&title_color=1a1a1a&text_color=666666&icon_color=888888" width="380">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amorfati3735&hide_border=true&background=ffffff&stroke=e0e0e0&ring=666666&fire=666666&currStreakNum=1a1a1a&sideNums=555555&currStreakLabel=1a1a1a&sideLabels=555555&dates=888888" width="380">
+  <img src="banner.svg" alt="PRATIK // YoRHa personnel file" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amorfati3735&layout=compact&hide_border=true&bg_color=ffffff&title_color=1a1a1a&text_color=666666">
+  <code>// proxy data retrieved &#183; everything that lives is designed to end &#183; for the glory of mankind</code>
 </p>
 
-<pre style="background:transparent;border:none;padding:0;margin:0 auto;width:fit-content;font-family:'Courier New',monospace;color:#555;font-size:14px;line-height:1.8">
+<br>
 
-  [ PROJECTS ]
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=amorfati3735&show_icons=true&hide_rank=true&bg_color=c6bfa3&title_color=454138&text_color=4e4b42&icon_color=5f5b50&border_color=4e4b42" height="170">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amorfati3735&background=c6bfa3&border=4e4b42&stroke=4e4b42&ring=454138&fire=8a3033&currStreakNum=454138&sideNums=4e4b42&currStreakLabel=454138&sideLabels=5f5b50&dates=6b6657" height="170">
+</p>
 
-  metrolist              youtube music client                kotlin
-  algorithm-visualizer   algorithm visualizer, but nier      ts
-  terminal-quizzer       mcq quiz platform                   python
-  grpproject             rainfall prediction and more         ts
-  slotshare              slot-based sharing                   js
-  timer                  adhd timer + obsidian logging        python
-</pre>
+<br>
 
-<pre style="background:transparent;border:none;padding:0;margin:0 auto;width:fit-content;font-family:'Courier New',monospace;color:#888;font-size:12px;line-height:2;letter-spacing:1px">
-  python  kotlin  typescript  javascript  c  android  linux  arch
-</pre>
+<p align="center">
+  <img src="archive.svg" alt="ARCHIVE // projects" width="100%">
+</p>
 
-<p align="center" style="font-family:'Courier New',monospace;font-size:12px;color:#888;margin-top:28px">
-  <a href="https://github.com/amorfati3735" style="color:#555;text-decoration:none">github</a>
-  &nbsp;/&nbsp;
-  <a href="https://amorfati3735.github.io/portfolio_v3/" style="color:#555;text-decoration:none">portfolio</a>
+<br>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amorfati3735&layout=compact&bg_color=c6bfa3&title_color=454138&text_color=4e4b42&border_color=4e4b42" height="160">
+</p>
+
+<br>
+
+<p align="center">
+  <code>python</code> &#183; <code>kotlin</code> &#183; <code>typescript</code> &#183; <code>javascript</code> &#183; <code>c</code> &#183; <code>android</code> &#183; <code>linux</code> &#183; <code>arch</code>
+</p>
+
+<p align="center">
+  <a href="https://github.com/amorfati3735">github</a>
+  &#160;//&#160;
+  <a href="https://amorfati3735.github.io/portfolio_v3/">portfolio</a>
+</p>
+
+<p align="center">
+  <sub>A2 &#183; 2B &#183; 9S &#8195;|&#8195; <code>glory to mankind</code></sub>
 </p>

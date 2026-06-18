@@ -1,21 +1,68 @@
-<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="160" fill="#ffffff"/>
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <!-- parchment grain -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.04 0"/>
+    </filter>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfc8ad"/>
+      <stop offset="0.5" stop-color="#c6bfa3"/>
+      <stop offset="1" stop-color="#bcb597"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="900" height="240"/></clipPath>
+  </defs>
 
-  <rect x="12" y="12" width="776" height="136" fill="none" stroke="#eee" stroke-width="0.5"/>
+  <!-- base -->
+  <rect width="900" height="240" fill="url(#vig)"/>
+  <rect width="900" height="240" filter="url(#grain)"/>
 
-  <polygon points="700,25 750,55 700,85 650,55" fill="none" stroke="#e0e0e0" stroke-width="0.8"/>
-  <polygon points="700,33 738,55 700,77 662,55" fill="none" stroke="#eee" stroke-width="0.4"/>
+  <!-- moving scanline -->
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="900" height="2" fill="#4e4b42" opacity="0.12">
+      <animate attributeName="y" values="-4;240" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <line x1="35" y1="35" x2="580" y2="35" stroke="#1a1a1a" stroke-width="1"/>
-  <line x1="35" y1="36.5" x2="580" y2="36.5" stroke="#e8e8e8" stroke-width="0.5"/>
+  <!-- outer frame -->
+  <rect x="16" y="16" width="868" height="208" fill="none" stroke="#4e4b42" stroke-width="1" opacity="0.55"/>
+  <rect x="20" y="20" width="860" height="200" fill="none" stroke="#4e4b42" stroke-width="0.4" opacity="0.3"/>
 
-  <text x="35" y="80" fill="#1a1a1a" font-size="34" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-weight="200" letter-spacing="8">PRATIK</text>
+  <!-- corner brackets -->
+  <g stroke="#4e4b42" stroke-width="2" fill="none">
+    <path d="M16 44 L16 16 L44 16"/>
+    <path d="M856 16 L884 16 L884 44"/>
+    <path d="M884 196 L884 224 L856 224"/>
+    <path d="M44 224 L16 224 L16 196"/>
+  </g>
 
-  <text x="35" y="110" fill="#666" font-size="11" font-family="'Courier New', monospace" letter-spacing="3">DEVELOPER / TINKERER</text>
+  <!-- top status bar -->
+  <text x="40" y="48" fill="#4e4b42" font-size="11" letter-spacing="4" opacity="0.85">YoRHa</text>
+  <text x="40" y="48" fill="#4e4b42" font-size="11" letter-spacing="4" opacity="0.85" dx="56">// PERSONNEL FILE</text>
+  <text x="860" y="48" fill="#4e4b42" font-size="11" letter-spacing="3" text-anchor="end" opacity="0.7">
+    SYS.ONLINE
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.4s" repeatCount="indefinite"/>
+  </text>
+  <line x1="40" y1="58" x2="860" y2="58" stroke="#4e4b42" stroke-width="0.6" opacity="0.4"/>
 
-  <text x="35" y="135" fill="#aaa" font-size="8" font-family="'Courier New', monospace" letter-spacing="1">OS: ENDEAVOUROS  |  WM: HYPRLAND  |  TERM: KITTY  |  SHELL: FISH</text>
+  <!-- main name -->
+  <text x="450" y="138" fill="#454138" font-size="64" font-weight="bold" letter-spacing="18"
+        text-anchor="middle" font-family="'Helvetica Neue','Segoe UI',Arial,sans-serif">PRATIK</text>
+  <text x="453" y="138" fill="#bcb597" font-size="64" font-weight="bold" letter-spacing="18"
+        text-anchor="middle" font-family="'Helvetica Neue','Segoe UI',Arial,sans-serif" opacity="0.5">PRATIK</text>
 
-  <rect x="35" y="141" width="5" height="1.5" fill="#ccc"/>
+  <!-- subtitle -->
+  <text x="450" y="166" fill="#5f5b50" font-size="12" letter-spacing="8" text-anchor="middle">DEVELOPER UNIT &#183; TYPE&#160;P</text>
 
-  <line x1="35" y1="142" x2="580" y2="142" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- divider with diamond node -->
+  <line x1="120" y1="190" x2="430" y2="190" stroke="#4e4b42" stroke-width="0.8" opacity="0.5"/>
+  <line x1="470" y1="190" x2="780" y2="190" stroke="#4e4b42" stroke-width="0.8" opacity="0.5"/>
+  <rect x="444" y="184" width="12" height="12" fill="#4e4b42" transform="rotate(45 450 190)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- bottom readout -->
+  <text x="450" y="212" fill="#6b6657" font-size="9.5" letter-spacing="3" text-anchor="middle">
+    OS ENDEAVOUROS &#160;|&#160; WM HYPRLAND &#160;|&#160; TERM KITTY &#160;|&#160; SHELL FISH
+  </text>
 </svg>
