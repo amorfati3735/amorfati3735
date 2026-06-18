@@ -37,7 +37,11 @@
   </g>
 
   <!-- top status bar -->
-  <text x="40" y="46" fill="#4e4b42" font-size="11" letter-spacing="4" opacity="0.85">// UNDERGRADUATE</text>
+  <text x="40" y="46" fill="#4e4b42" font-size="11" letter-spacing="4" opacity="0.85">// SOFTWARE ENGINEER</text>
+  <text x="860" y="46" fill="#4e4b42" font-size="11" letter-spacing="3" text-anchor="end" opacity="0.8">
+    STATUS: OPEN TO WORK
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.6s" repeatCount="indefinite"/>
+  </text>
   <line x1="40" y1="56" x2="860" y2="56" stroke="#4e4b42" stroke-width="0.6" opacity="0.4"/>
 
   <!-- name -->
@@ -45,7 +49,7 @@
         text-anchor="middle" font-family="'Helvetica Neue','Segoe UI',Arial,sans-serif">PRATIK AMBASTHA</text>
 
   <!-- subtitle -->
-  <text x="450" y="156" fill="#5f5b50" font-size="11" letter-spacing="6" text-anchor="middle">CSE&#160;&#183;&#160;VIT VELLORE&#160;&#183;&#160;2029</text>
+  <text x="450" y="156" fill="#5f5b50" font-size="12" letter-spacing="7" text-anchor="middle">FULL-STACK&#160;&#183;&#160;AI / AGENTS&#160;&#183;&#160;SYSTEMS</text>
 
   <!-- divider with diamond -->
   <line x1="150" y1="180" x2="430" y2="180" stroke="#4e4b42" stroke-width="0.8" opacity="0.5"/>

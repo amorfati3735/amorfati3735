@@ -11,13 +11,13 @@
 
 <!-- ===== BANNER ===== -->
 <p align="center">
-  <img src="banner.svg" alt="Pratik Ambastha" width="100%">
+  <img src="banner.svg" alt="Pratik Ambastha — Software Engineer" width="100%">
 </p>
 
 <!-- ===== TYPING INTRO ===== -->
 <p align="center">
   <a href="https://amorfati3735.github.io/portfolio_v3/">
-    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=900&color=454138&center=true&vCenter=true&width=620&height=42&lines=Second-year+CS+student+%C2%B7+VIT+Vellore;Tinkerer+%C2%B7+full-stack+%C2%B7+Android+%C2%B7+Linux;React+%C2%B7+TypeScript+%C2%B7+Kotlin+%C2%B7+Python" alt="intro">
+    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=900&color=454138&center=true&vCenter=true&width=620&height=42&lines=Full-stack+developer+%C2%B7+web%2C+mobile+%26+terminal;React+%C2%B7+TypeScript+%C2%B7+Node+%C2%B7+Python+%C2%B7+Kotlin;Building+with+AI+agents+%26+systems+tooling;Open+to+SDE+%2F+placement+opportunities+%E2%80%94+2026" alt="intro">
   </a>
 </p>
 
@@ -28,7 +28,9 @@
   <code>[ ABOUT ]</code>
 </p>
 
-> VIT CSE 2029, tinkerer.
+> Final-year CS student who ships end-to-end — from MongoDB-backed full-stack platforms
+> to Android clients, data-viz tools, and Python automation. I like clean interfaces,
+> fast feedback loops, and turning rough ideas into things that actually run in production.
 
 <br>
 
