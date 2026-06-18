@@ -1,0 +1,41 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#111128"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#ff6b81"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="280" fill="url(#bg)"/>
+
+  <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="0.8" fill="#ffffff" opacity="0.04"/>
+  </pattern>
+  <rect width="1000" height="280" fill="url(#dots)"/>
+
+  <circle cx="800" cy="140" r="110" fill="none" stroke="#e94560" stroke-width="0.4" opacity="0.12"/>
+  <circle cx="800" cy="140" r="80" fill="none" stroke="#e94560" stroke-width="0.6" opacity="0.2"/>
+  <circle cx="800" cy="140" r="50" fill="none" stroke="#e94560" stroke-width="1" opacity="0.35"/>
+
+  <circle cx="680" cy="60" r="2" fill="#e94560" opacity="0.4"/>
+  <circle cx="900" cy="90" r="1.5" fill="#e94560" opacity="0.3"/>
+  <circle cx="720" cy="220" r="2.5" fill="#e94560" opacity="0.35"/>
+  <circle cx="920" cy="200" r="1.5" fill="#e94560" opacity="0.25"/>
+  <circle cx="850" cy="50" r="1" fill="#e94560" opacity="0.3"/>
+  <circle cx="940" cy="130" r="1.8" fill="#e94560" opacity="0.25"/>
+
+  <rect x="80" y="45" width="4" height="190" rx="2" fill="url(#accent)"/>
+
+  <text x="110" y="140" fill="#ffffff" font-size="64" font-family="system-ui, -apple-system, sans-serif" font-weight="700">pratik</text>
+
+  <text x="110" y="185" fill="#7888aa" font-size="18" font-family="system-ui, -apple-system, sans-serif" font-weight="400" letter-spacing="3">developer / tinkerer</text>
+
+  <line x1="110" y1="210" x2="380" y2="210" stroke="#e94560" stroke-width="1" opacity="0.25"/>
+
+  <text x="970" y="260" fill="#e94560" font-size="16" font-family="serif" opacity="0.6" text-anchor="end">創造</text>
+</svg>
