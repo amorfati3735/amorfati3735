@@ -28,7 +28,7 @@
   <code>[ ABOUT ]</code>
 </p>
 
-> VIT CSE 2029, tinkerer.
+> full time tinkerer.
 
 <br>
 
